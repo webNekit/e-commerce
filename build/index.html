@@ -29,7 +29,70 @@
 	<body class="website" id="website">
 		<header class="website__header header" id="header">
 			<div class="container header__container">
-				Шапка сайта
+				<div class="header__row header__row--top">
+					<div class="header__left">
+						<!-- start logo -->
+						<div class="header__logo logo">
+							<a href="index.html" class="logo__link">
+								<img src="./img/logo.svg" alt="Логотип компании" class="logo__brand" />
+								<span class="logo__name">ТОВАРЫ ДЛЯ ДОМА, ДАЧИ И&#160;РЕМОНТА</span>
+							</a>
+						</div>
+						<!-- end logo -->
+					</div>
+					<div class="header__right">
+						<nav class="header__navbar navbar" id="navbar-primary">
+							<menu class="navbar__menu">
+								<li class="navbar__menu-item"><a href="#!" title="Главная" class="navbar__menu-link">Главная</a></li>
+								<li class="navbar__menu-item"><a href="#!" title="О магазине" class="navbar__menu-link">О&#160;магазине</a></li>
+								<li class="navbar__menu-item"><a href="#!" title="Оплата и доставка" class="navbar__menu-link">Оплата и&#160;доставка</a></li>
+								<li class="navbar__menu-item"><a href="#!" title="Гарантия и возврат" class="navbar__menu-link">Гарантия и&#160;возврат</a></li>
+								<li class="navbar__menu-item"><a href="#!" title="Контакты" class="navbar__menu-link">Контакты</a></li>
+							</menu>
+						</nav>
+					</div>
+				</div>
+				<div class="header__row header__row--bottom">
+					<div class="header__tool">
+						<button class="header__button-megaMenu button button--primary">Каталог</button>
+					</div>
+					<!-- start search -->
+					<div class="header__search">
+						<form class="header__search-form">
+							<div class="header__search-item">
+								<button class="header__search-button">
+									<svg class="header__search-buttonIcon  icon icon--example">
+										<use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+									</svg>
+								</button>
+								<input type="search" class="header__search-input input" placeholder="Поиск в БЫСТРОЙКА" />
+							</div>
+						</form>
+					</div>
+					<!-- start end -->
+					<!-- start actions -->
+					<div class="header__actions">
+						<a href="tel:+78004501010" class="header__action-phone">8 800 450 10 10</a>
+						<button class="header__button-modal button button--outline">Заказать звонок</button>
+						<ul class="header__actions-list">
+							<li class="header__actions-listItem">
+								<a title="Корзина товаров" href="#!" class="header__actions-listLink header__actions-listLink--cart">
+									<svg class="header__actions-listLinkIcon icon icon--example">
+										<use href="./img/svgsprite/sprite.symbol.svg#cart"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="header__actions-listItem">
+								<a title="Избранные товары" href="#!" class="header__actions-listLink header__actions-listLink--favorits">
+									<svg class="header__actions-listLinkIcon icon icon--example">
+										<use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- end actions -->
+				</div>
 			</div>
 		</header>
 		<div class="website__layout">
