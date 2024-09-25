@@ -27,6 +27,12 @@
     &__tool {
 
     }
+    &__button-megaMenu {
+        &--is-active {
+            position: relative;
+            z-index: 100;
+        }
+    }
 
     &__search {
         flex: 2;
