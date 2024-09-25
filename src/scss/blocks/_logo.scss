@@ -1,0 +1,18 @@
+.logo {
+    &__link {
+       display: flex;
+       align-items: center;
+        gap: 15px;
+    }
+    &__brand {
+        width: 182px;
+        height: 76px;
+    }
+    &__name {
+        max-width: 190px;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--color-primary);
+        text-transform: uppercase;
+    }
+}
