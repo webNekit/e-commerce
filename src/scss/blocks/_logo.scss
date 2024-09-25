@@ -9,7 +9,9 @@
         height: 76px;
     }
     &__name {
-        max-width: 190px;
+        --width: 200px;
+        min-width: var(--width);
+        max-width: var(--width);
         font-size: 18px;
         font-weight: 500;
         color: var(--color-primary);

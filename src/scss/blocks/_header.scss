@@ -8,10 +8,14 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 24px;
             padding-top: 18px;
             padding-bottom: 8px;
             border-bottom: 1px solid var(--color-separator);
         }
         &--bottom{}
+    }
+    &__right {
+        width: 100%;
     }
 }
