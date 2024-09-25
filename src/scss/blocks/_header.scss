@@ -13,9 +13,42 @@
             padding-bottom: 8px;
             border-bottom: 1px solid var(--color-separator);
         }
-        &--bottom{}
+        &--bottom{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
     }
     &__right {
         width: 100%;
+    }
+    &__tool {
+        flex: 1;
+    }
+
+    &__search {
+        flex: 2;
+        &-form {
+            width: 100%;
+        }
+        &-item {
+            position: relative;
+            width: 100%;
+        }
+        &-button {
+            --size: 50px;
+            position: absolute;
+            top: 0;
+            left: 16px;
+            width: var(--size);
+            height: var(--size);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__actions {
+        flex: 2;
     }
 }
