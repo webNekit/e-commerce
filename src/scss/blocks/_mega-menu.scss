@@ -8,6 +8,9 @@
     background-color: rgba(0,0,0, .5);
     z-index: 90;
     display: none;
+    &.is-active {
+       display: block; 
+    }
     &__wrapper {
         position: absolute;
         top: calc(193px - 20px);
